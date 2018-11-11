@@ -32,15 +32,21 @@ Implement [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.0657
   ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Loss.PNG)
   
   alpha and beta are used to adjust the output image.
+  
   The higher alpha/beta, the more impact that content influence output and vice versa.
+  
   The deeper layers we used for feature extraction, more detail we can found in output image.
+  
   ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Result.PNG)
   
   
 ## Result
-- OLutput
+- Output
+
   ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Neural Artist Result.PNG)
+  
 - We can find some detail (brightness, contrast, ...) in images after several iterations.
+
   ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Neural Artist.PNG)
   
 
