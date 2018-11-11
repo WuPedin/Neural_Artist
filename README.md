@@ -3,8 +3,9 @@ Use neural network to do style transformation.
 
 (These files are review of Deep Learning Bootcamp of 木刻思.)
 
-Implement [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf)
+Implement [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf).
 
+----------------------------------------------------------------------
 Goal
 - To apply style transformation to content image.
 
