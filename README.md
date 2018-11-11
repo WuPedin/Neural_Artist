@@ -27,11 +27,17 @@ Basic Concept
   Which mean difference between output image and style image after feature extraction. 
 
 - Total loss:
-  ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Loss_style.PNG)
 
-$\alpha$ and $\beta$ are used to adjust the output image.
-The higher $\alpha/\beta$, the more impact that content influence output and vice versa.
+  ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Loss.PNG)
+  
+  use total loss to backpropagate. 
+  
+  $\alpha$ and $\beta$ are used to adjust the output image.
+  
 
+Result
+- The higher $\alpha/\beta$, the more impact that content influence output and vice versa.
+  ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Result.PNG)
 
 
 
