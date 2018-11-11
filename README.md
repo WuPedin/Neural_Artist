@@ -20,19 +20,17 @@ Basic Concept
 
   ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Loss_content.PNG)
 
-  Which mean difference between output image and content image after feature extraction.
+  which mean difference between output image and content image after feature extraction.
 
   ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Loss_style.PNG)
 
-  Which mean difference between output image and style image after feature extraction. 
+  which mean difference between output image and style image after feature extraction. 
 
-- Total loss:
+- And then use total loss to backpropagate:
 
   ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Loss.PNG)
   
-  use total loss to backpropagate. 
-  
-  $\alpha$ and $\beta$ are used to adjust the output image.
+  $alpha and beta$ are used to adjust the output image.
   
 
 Result
