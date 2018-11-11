@@ -43,11 +43,11 @@ Implement [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.0657
 ## Result
 - Output
 
-  ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Neural Artist Result.PNG)
+  ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Neural%20Artist%20Result.PNG)
   
 - We can find some detail (brightness, contrast, ...) in images after several iterations.
 
-  ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Neural Artist.PNG)
+  ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Neural%20Artist%20Result.PNG)
   
 
 
