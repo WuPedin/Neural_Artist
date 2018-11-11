@@ -30,7 +30,7 @@ Basic Concept
 
   ![image](https://github.com/WuPedin/Neural_Artist/blob/master/Loss.PNG)
   
-  \alpha\ and beta$ are used to adjust the output image.
+  \alpha and \beta are used to adjust the output image.
   
 
 Result
