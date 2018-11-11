@@ -15,7 +15,18 @@ Preparation
 - VGG19 or other pretrained model for feature extraction
 
 Basic Concept
-- Use VGG19 to extract features
+- Use VGG19 to extract features. It is believed that shallow layers represent style-relative features and deep layers represent content-relative features.
+- We want our output image to be both similar to content image and style image. Therefore, we calculate two losses:
+![image](https://github.com/WuPedin/Neural_Artist/blob/master/Loss_content.PNG)
+Which mean difference between output image and content image after feature extraction.
+![image](https://github.com/WuPedin/Neural_Artist/blob/master/Loss_style.PNG)
+Which mean difference between output image and style image after feature extraction. 
+- Total loss:
+![image](https://github.com/WuPedin/Neural_Artist/blob/master/Loss_style.PNG)
+
+$\alpha$ and $\beta$ are used to adjust the output image.
+The higher $\alpha/\beta$, the more impact that content influence output and vice versa.
+
 
 
 
